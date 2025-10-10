@@ -2,22 +2,24 @@ import React, { Component } from "react";
 
 import "./hitCounter.css";
 
-const WEB_COUNTER_URL =
-    "https://www.free-website-hit-counter.com/c.php?d=5&id=137412&s=5";
-
 class HitCounter extends Component {
+    componentDidMount() {
+        const script = document.createElement("script");
+        script.src = "https://www.counter12.com/ad.js?id=ZcyWwDYb6dC15ZD8";
+        script.async = true;
+        document.body.appendChild(script);
+    }
+
     render() {
         return (
-            <div className="hitCounter">
-                <div align="center">
-                    <a href="https://www.free-website-hit-counter.com">
-                        <img
-                            src={WEB_COUNTER_URL}
-                            border="0"
-                            alt="Free Website Hit Counter"
-                        />
-                    </a>
-                </div>
+            <div className="hitCounter" style={{ textAlign: "center" }}>
+                <a href="https://www.counter12.com">
+                    <img
+                        src="https://www.counter12.com/img-ZcyWwDYb6dC15ZD8-29.gif"
+                        alt="contador de visitas gratis"
+                        border="0"
+                    />
+                </a>
             </div>
         );
     }
