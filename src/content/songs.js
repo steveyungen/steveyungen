@@ -1,4 +1,4 @@
-export const DEFAULT_SONG = "at-the-beach";
+export const DEFAULT_SONG = "flying-harmonicas-1";
 
 export const hawaiian = {
     "Aloha Week Hula": "aloha-week-hula",
