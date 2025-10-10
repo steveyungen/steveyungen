@@ -1,10 +1,5 @@
 export const DEFAULT_SONG = "flying-harmonicas-1";
 
-export const hawaiian = {
-    "Aloha Week Hula": "aloha-week-hula",
-    "Koke'e": "kokee",
-};
-
 export const originals = {
     "Flying Harmonicas": "flying-harmonicas-1",
     "I'm a Honeybee": "im-a-honeybee",
@@ -17,9 +12,11 @@ export const originals = {
 };
 
 export const covers = {
+    "Aloha Week Hula": "aloha-week-hula",
     "Between the Devil and the Deep Blue Sea":
         "between-the-devil-and-the-deep-blue-sea",
     "City of Stars": "city-of-stars-steve",
+    "Koke'e": "kokee",
     "Slow Down": "slow-down",
     "Sunshine On My Shoulders": "sunshine-on-my-shoulders",
     "Sweet Child of Mine (Steel Guitar)": "sweet-child-of-mine-steel",
