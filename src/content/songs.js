@@ -7,8 +7,12 @@ export const hawaiian = {
 
 export const originals = {
     "Flying Harmonicas": "flying-harmonicas-1",
+    "I'm a Honeybee": "im-a-honeybee",
+    "Mama's Birthday": "mamas-birthday",
+    "On the Road to Inner Sanctum": "on-the-road-to-inner-sanctum-01-08-2025",
     "Sprayed By Skunk v. 3": "sprayed-by-skunk-3",
     Sunflower: "sunflower",
+    "The Day Was Not Ready for Darkness": "without-the-darkness-theres-light",
     "We Share the Same Sky": "we-share-the-same-sky-1",
 };
 
