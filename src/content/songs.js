@@ -2,26 +2,13 @@ export const DEFAULT_SONG = "at-the-beach";
 
 export const hawaiian = {
     "Aloha Week Hula": "aloha-week-hula",
-    "Hula Breeze": "hula-breeze",
-    Kainoa: "kainoa",
     "Koke'e": "kokee",
-    "Mauna Chimes": "mauna-chimes",
-    Pohakuloa: "pohakuloa",
-    Seabird: "seabird",
-    "White Sandy Beach": "white-sandy-beach-1",
 };
 
 export const originals = {
-    "At The Beach": "at-the-beach",
-    "At The Beach v. 2": "at-the-beach-1",
-    "A Change of Heart": "a-change-of-heart-aug-2017",
-    Domino: "domino-170",
     "Flying Harmonicas": "flying-harmonicas-1",
-    "In This Light You Look Like a Friend of Mine":
-        "in-this-light-you-look-like-a-friend-of-mine",
     "Sprayed By Skunk v. 3": "sprayed-by-skunk-3",
     Sunflower: "sunflower",
-    Superhero: "superhero-6-28-2020",
     "We Share the Same Sky": "we-share-the-same-sky-1",
 };
 
