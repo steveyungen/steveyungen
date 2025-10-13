@@ -50,6 +50,19 @@
     box-shadow: 0 0 15px #ff4400;
 }
 
+.scLogo {
+    margin: auto;
+    max-height: 100px;
+}
+
+.scLogoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 120px;
+    width: 100%;
+}
+
 .placeholder-true {
     height: 380px;
 }

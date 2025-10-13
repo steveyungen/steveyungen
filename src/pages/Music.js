@@ -8,6 +8,7 @@ import {
     SongList,
 } from "../components";
 import { DEFAULT_SONG, originals, covers, collabs } from "../content/songs";
+import SoundCloudLogo from "../images/logos/soundcloud.svg";
 import Thumb from "../images/logos/thumb.svg";
 import "./Music.css";
 
@@ -124,7 +125,13 @@ class Music extends Component {
 
                 <DistroVideos />
 
-                <div style={{ height: "50px" }} />
+                <div className="scLogoContainer">
+                    <img
+                        alt="SoundCloud Logo"
+                        className="scLogo"
+                        src={SoundCloudLogo}
+                    />
+                </div>
 
                 <div className={`row placeholder-${mobilize}`} />
                 <div className={`mobilize mobilize-${mobilize}`}>

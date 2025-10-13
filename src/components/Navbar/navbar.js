@@ -43,6 +43,11 @@ class Navbar extends Component {
                                 </a>
                             </li>
                             <li className="nav-item">
+                                <a className="nav-link" href="/music">
+                                    MUSIC
+                                </a>
+                            </li>
+                            <li className="nav-item">
                                 <a className="nav-link" href="/videos">
                                     VIDEOS
                                 </a>
@@ -50,11 +55,6 @@ class Navbar extends Component {
                             <li className="nav-item">
                                 <a className="nav-link" href="/photos">
                                     PHOTOS
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="/music">
-                                    MUSIC
                                 </a>
                             </li>
                             <li className="nav-item">
