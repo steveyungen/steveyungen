@@ -18,6 +18,10 @@
     width: 100%;
 }
 
+.distroVideosContainer {
+    margin-top: -60px;
+}
+
 .donatePrompt {
     margin: auto;
     margin-bottom: 2px;
@@ -59,7 +63,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 120px;
+    margin-top: 90px;
     width: 100%;
 }
 
@@ -96,6 +100,17 @@
 
 .songListRow {
     margin-left: 0px !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .distroVideosContainer {
+        margin-top: 0px;
+    }
+
+    .scLogoContainer {
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
 }
 
 /* SLIDER CSS */

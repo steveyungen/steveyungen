@@ -123,7 +123,9 @@ class Music extends Component {
                     <div className="spacer"></div>
                 </div>
 
-                <DistroVideos />
+                <div className="distroVideosContainer">
+                    <DistroVideos />
+                </div>
 
                 <div className="scLogoContainer">
                     <img
