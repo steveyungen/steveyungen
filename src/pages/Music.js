@@ -1,11 +1,14 @@
 import React, { Component } from "react";
-import AudioPlayer from "../components/AudioPlayer/audioPlayer";
-import SongList from "../components/SongList/songList";
-import DonateBtns from "../components/DonateBtns/donateBtns";
-import Logo from "../components/Logo/logo";
-import Thumb from "../images/logos/thumb.svg";
 
+import {
+    AudioPlayer,
+    DistroVideos,
+    DonateBtns,
+    Logo,
+    SongList,
+} from "../components";
 import { DEFAULT_SONG, originals, covers, collabs } from "../content/songs";
+import Thumb from "../images/logos/thumb.svg";
 import "./Music.css";
 
 const thumbStyle = {
@@ -29,7 +32,10 @@ class Music extends Component {
     }
 
     componentDidMount = () => {
-        if (window.location.protocol !== "https:") {
+        if (
+            window.location.protocol !== "https:" &&
+            window.location.hostname !== "localhost"
+        ) {
             window.location.href =
                 "https:" +
                 window.location.href.substring(window.location.protocol.length);
@@ -116,8 +122,12 @@ class Music extends Component {
                     <div className="spacer"></div>
                 </div>
 
+                <DistroVideos />
+
+                <div style={{ height: "50px" }} />
+
                 <div className={`row placeholder-${mobilize}`} />
-                <div className={`mobilize  mobilize-${mobilize}`}>
+                <div className={`mobilize mobilize-${mobilize}`}>
                     <div
                         id="audio-section"
                         className={`row row-style justify-content-center text-center audio-section`}

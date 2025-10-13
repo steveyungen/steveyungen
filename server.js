@@ -1,8 +1,8 @@
 require("dotenv").config();
 
 const express = require("express");
-const http = require("http").Server(app);
 const app = express();
+const http = require("http").Server(app);
 const PORT = process.env.PORT || 5000;
 
 app.use(bodyParser.json());

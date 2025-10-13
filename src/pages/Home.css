@@ -15,18 +15,10 @@ body {
 }
 
 .fadeIn-fast {
-    -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 0.5s; /* Firefox < 16 */
-    -ms-animation: fadein 0.5s; /* Internet Explorer */
-    -o-animation: fadein 0.5s; /* Opera < 12.1 */
     animation: fadein 0.5s;
 }
 
 .fadeIn-3 {
-    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 3s; /* Firefox < 16 */
-    -ms-animation: fadein 3s; /* Internet Explorer */
-    -o-animation: fadein 3s; /* Opera < 12.1 */
     animation: fadein 3s;
 }
 
@@ -38,10 +30,6 @@ body {
     font-family: "Cabin", "sans-serif";
     padding: 40px 60px !important;
 
-    -webkit-animation: fadein 0.25s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 0.25s; /* Firefox < 16 */
-    -ms-animation: fadein 0.25s; /* Internet Explorer */
-    -o-animation: fadein 0.25s; /* Opera < 12.1 */
     animation: fadein 0.25s;
 }
 

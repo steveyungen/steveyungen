@@ -1,0 +1,41 @@
+.distroContainer {
+    position: relative;
+}
+
+.distroTitle {
+    color: #000;
+    display: block;
+    font-size: 14px;
+    padding: 5px;
+    text-align: center;
+}
+
+.distroVideo {
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    display: inline-block;
+    flex: 0 0 auto;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+    width: 250px;
+}
+
+.distroVideo img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.distroVideo:hover {
+    transform: scale(0.98);
+}
+
+.distroVideoContainer {
+    display: flex;
+    gap: 8px;
+    margin-top: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+}
