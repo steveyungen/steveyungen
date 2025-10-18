@@ -6,32 +6,32 @@ const DISTRO_VIDEO = {
     BOMBAY_BEACH: {
         img: IMAGES.BOMBAY,
         title: "Bombay Beach",
-        url: "https://youtube.com/playlist?list=OLAK5uy_nqVBnRcPYTgxWOMmIlM5gZf9T6PxXKx_8",
+        url: "https://youtu.be/B4Oub7ckGK4?si=KhanGwsdwgVPNWCc",
     },
     CHRISTMAS_EVE_AT_AIRPORT: {
         img: IMAGES.CHRISTMAS,
         title: "Christmas Eve at Airport",
-        url: "https://youtube.com/playlist?list=OLAK5uy_mOU5WfH5I6dDFsQz0wvI5grz-fdJNve5Y",
+        url: "https://youtu.be/kHLgMFc0U8k?si=GJGPK2IAuv7H-kcj",
     },
     HONEYBEE: {
         img: IMAGES.HONEYBEE,
         title: "I'm a Honeybee",
-        url: "https://youtube.com/playlist?list=OLAK5uy_mCK9j6JixbDc3dQaYcEjG_8blm1G50rac",
+        url: "https://youtu.be/NnXeQZOHtok?si=3CvKw-y6G09G3YMC",
     },
     MAMAS_BIRTHDAY: {
         img: IMAGES.MAMAS_BIRTHDAY,
         title: "Mama's Birthday",
-        url: "https://youtube.com/playlist?list=OLAK5uy_ltx9InsacPgJTwnPG7LtQsRki5Lm6h5zM",
+        url: "https://youtu.be/yWB_RzS5NX4?si=u5CTMRY7vXVbtFkv",
     },
     SPRAYED_BY_SKUNK: {
         img: IMAGES.SPRAYED_BY_SKUNK,
         title: "Sprayed by Skunk",
-        url: "https://youtube.com/playlist?list=OLAK5uy_mGfryLcUpo4yylmHFfx6zM3LMEWgCXw3E",
+        url: "https://youtu.be/BDUJkBZw6NY?si=68spG9jkQMoYhd8F",
     },
     WE_SHARE_THE_SAME_SKY: {
         img: IMAGES.WE_SHARE_THE_SAME_SKY,
         title: "We Share the Same Sky",
-        url: "https://youtube.com/playlist?list=OLAK5uy_krZ5gu1OYw7LRxRTOGPEkYP-rsRyKvMEI",
+        url: "https://youtu.be/Z7DEqWcj940?si=214_D8a_osskaSHk",
     },
 };
 
