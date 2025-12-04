@@ -28,7 +28,6 @@ class Music extends Component {
             autoPlay: false,
             askForTip: false,
             screenWidth: null,
-            mobilize: false,
         };
     }
 
@@ -41,50 +40,6 @@ class Music extends Component {
                 "https:" +
                 window.location.href.substring(window.location.protocol.length);
         }
-
-        window.addEventListener("resize", this.getScreenWidth.bind(this));
-        window.addEventListener("scroll", this.toggleMobilizer.bind(this));
-
-        this.getScreenWidth();
-    };
-
-    getScreenWidth = () => {
-        let screenWidth =
-            window.innerWidth ||
-            document.documentElement.clientWidth ||
-            document.body.clientWidth;
-
-        this.setState(
-            {
-                screenWidth,
-            },
-            () => {
-                this.toggleMobilizer();
-            }
-        );
-    };
-
-    toggleMobilizer = () => {
-        let { screenWidth, mobilize } = this.state;
-
-        let audio = document
-            .getElementById("audio-section")
-            .getBoundingClientRect();
-
-        let scrollY = window.scrollY;
-        let diffY = scrollY - audio.y;
-
-        if (screenWidth >= 768) {
-            mobilize = false;
-        } else if (screenWidth < 768 && diffY > 750) {
-            mobilize = true;
-        } else {
-            mobilize = false;
-        }
-
-        this.setState({
-            mobilize,
-        });
     };
 
     toggleAutoPlay = () => {
@@ -106,7 +61,7 @@ class Music extends Component {
     };
 
     render() {
-        const { title, autoPlay, askForTip, mobilize } = this.state;
+        const { title, autoPlay, askForTip } = this.state;
         return (
             <div className="container music-container">
                 <div className="row row-style justify-content-center text-center">
@@ -135,8 +90,8 @@ class Music extends Component {
                     />
                 </div>
 
-                <div className={`row placeholder-${mobilize}`} />
-                <div className={`mobilize mobilize-${mobilize}`}>
+                <div className="row" />
+                <div>
                     <div
                         id="audio-section"
                         className={`row row-style justify-content-center text-center audio-section`}
