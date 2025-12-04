@@ -164,25 +164,6 @@ input:checked + .slider:before {
     transform: translateX(26px);
 }
 
-.mobilize-false {
-    transition: 0.5s;
-}
-
-.mobilize-true {
-    background: #e2e2e2;
-    border-bottom: 1px solid #303030;
-    left: 0px;
-    margin: 0px;
-    max-width: 100%;
-    padding: 10px 10px;
-    padding-bottom: 0px;
-    position: fixed;
-    top: 0px;
-    transition: 0.5s;
-    width: 100%;
-    z-index: 99;
-}
-
 .slider.round {
     border-radius: 34px;
 }
