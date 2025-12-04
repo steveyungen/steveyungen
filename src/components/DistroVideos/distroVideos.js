@@ -16,7 +16,7 @@ const DISTRO_VIDEO = {
     HONEYBEE: {
         img: IMAGES.HONEYBEE,
         title: "I'm a Honeybee",
-        url: "https://youtu.be/NnXeQZOHtok?si=3CvKw-y6G09G3YMC",
+        url: "https://youtu.be/UOFnPew57qk",
     },
     MAMAS_BIRTHDAY: {
         img: IMAGES.MAMAS_BIRTHDAY,
@@ -31,7 +31,7 @@ const DISTRO_VIDEO = {
     WE_SHARE_THE_SAME_SKY: {
         img: IMAGES.WE_SHARE_THE_SAME_SKY,
         title: "We Share the Same Sky",
-        url: "https://youtu.be/Z7DEqWcj940?si=214_D8a_osskaSHk",
+        url: "https://youtu.be/sUrmjq5golI",
     },
 };
 
