@@ -33,6 +33,11 @@ const DISTRO_VIDEO = {
         title: "We Share the Same Sky",
         url: "https://youtu.be/sUrmjq5golI",
     },
+    THE_MOON_PERHAPS: {
+        img: IMAGES.THE_MOON_PERHAPS,
+        title: "The Moon, Perhaps",
+        url: "https://www.youtube.com/watch?v=QqWIctR2NFU",
+    },
 };
 
 const DistroVideos = () => {
@@ -53,7 +58,7 @@ const DistroVideos = () => {
                                 <span className="distroTitle">{title}</span>
                             </div>
                         </a>
-                    )
+                    ),
                 )}
             </div>
         </div>
