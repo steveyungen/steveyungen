@@ -4,9 +4,6 @@ import VIDEO from "../content/videos";
 
 const VIDEOS = [
     VIDEO.WE_SHARE_THE_SAME_SKY,
-    VIDEO.HONEYBEE,
-    VIDEO.BOMBAY_BEACH,
-    VIDEO.AT_THE_BEACH_SEPT_2024,
     VIDEO.STEVE_JOSEPH_CURTIS_2022,
     VIDEO.BANANAS_THE_MOVIE,
     VIDEO.UKULELE_JIMMY,
@@ -39,7 +36,7 @@ class Videos extends Component {
                                 </div>
                             )}
                         </div>
-                    ) : null
+                    ) : null,
                 )}
             </div>
         );
