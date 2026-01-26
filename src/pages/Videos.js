@@ -3,6 +3,7 @@ import Video from "../components/Video/video";
 import VIDEO from "../content/videos";
 
 const VIDEOS = [
+    VIDEO.ORANGUTAN_ARITHMETIC,
     VIDEO.WE_SHARE_THE_SAME_SKY,
     VIDEO.STEVE_JOSEPH_CURTIS_2022,
     VIDEO.BANANAS_THE_MOVIE,
