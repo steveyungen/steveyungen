@@ -119,37 +119,6 @@ class Home extends Component {
                     <div className="col-sm-12 spacer" />
                 </div>
 
-                {/* SOCIAL MEDIA */}
-                <div className="row row-style justify-content-center text-center">
-                    <div className="spacer" />
-                    <p className="col-md-12 title">FIND STEVE ONLINE</p>
-                    <div className="col-xs-4 col-md-2">
-                        <Logo
-                            image={SoundCloudLogo}
-                            style={logoStyle}
-                            link="https://soundcloud.com/steve-yungen"
-                            target="_blank"
-                        />
-                    </div>
-                    <div className="col-xs-4 col-md-2">
-                        <Logo
-                            image={YouTubeLogo}
-                            style={logoStyle}
-                            link="https://www.youtube.com/user/sugarbeet56/videos"
-                            target="_blank"
-                        />
-                    </div>
-                    <div className="col-xs-4 col-md-2">
-                        <Logo
-                            image={FacebookLogo}
-                            style={logoStyle}
-                            link="https://www.facebook.com/steve.yungen"
-                            target="_blank"
-                        />
-                    </div>
-                    <div className="col-sm-12 spacer" />
-                </div>
-
                 <hr />
 
                 <div className="row row-style justify-content-center text-center">
