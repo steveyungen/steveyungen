@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./donateBtns.css";
 
-const PATREON_ID = "29073055";
 const PAYPAL_BIZ_ID = "NCZH4FUURXPXY";
 
 class DonateBtns extends Component {

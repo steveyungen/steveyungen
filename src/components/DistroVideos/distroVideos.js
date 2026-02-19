@@ -38,6 +38,11 @@ const DISTRO_VIDEO = {
         title: "The Moon, Perhaps",
         url: "https://www.youtube.com/watch?v=QqWIctR2NFU",
     },
+    UNDERCOVER_SPY: {
+        img: IMAGES.UNDERCOVER_SPY,
+        title: "Undercover Spy",
+        url: "https://youtu.be/3YtopGRKYQM",
+    },
 };
 
 const DistroVideos = () => {
