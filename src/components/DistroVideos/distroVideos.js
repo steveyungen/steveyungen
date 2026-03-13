@@ -6,7 +6,7 @@ const DISTRO_VIDEO = {
     BOMBAY_BEACH: {
         img: IMAGES.BOMBAY,
         title: "Bombay Beach",
-        url: "https://youtu.be/B4Oub7ckGK4?si=KhanGwsdwgVPNWCc",
+        url: "https://youtu.be/ZR1pJIeMksk?si=bY40rWCd-5VNFQBk",
     },
     CHRISTMAS_EVE_AT_AIRPORT: {
         img: IMAGES.CHRISTMAS,
